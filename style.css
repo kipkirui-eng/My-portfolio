@@ -21,11 +21,13 @@ header{
     z-index: 1000;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 8%;
+    padding: 20px 10%;
     background: #111c32;
+    box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
 .logo{
     color: #38bdf8;
@@ -43,6 +45,11 @@ nav a{
     transition: 0.3s;
 
 }
+nav a.active{
+    color: #facc15;
+    border-bottom: 2px solid #facc15;
+    padding: 5px;
+}
 nav a:hover{
     color: #facc15;
 
@@ -53,11 +60,14 @@ section{
 }
 
 .hero{
-    min-height: 85vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 40px;
+    background: #111c32;
+    color: white;
+    padding-top: 120px;
 }
 
 .hero h1{
@@ -164,6 +174,7 @@ section{
     color: #0f172a;
     text-decoration: none;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 section h2{
@@ -221,4 +232,33 @@ footer {
 .social-icons a:hover{
     background: #0077b5;
 }
+.hero-content{
+    max-width: 600px;
+}
 
+.hero-content h3{
+    font-size: 20px;
+    color: #00bcd4;
+}
+
+.hero-content h1{
+    font-size: 45px;
+    margin: 15px 0;
+
+}
+.hero-content h1 span{
+    color: #00bcd4;
+}
+.hero-content p{
+    font-size: 16px;
+    line-height: 1.8;
+    color: #ccc;
+}
+.hero-buttons{
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+.btn{
+    
+}
