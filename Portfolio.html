@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Mathew Kipkirui/ Portfolio</title>
 </head>
+<script>
+    function toggleMenu() {
+        document.getElementById("nav-menu").classList.toggle("active");
+    }
+</script>
 <body>
     <header>
-        <h2 class="logo">Mathew</h2>
-        <nav>
+        <h2 class="logo">My Portfolio</h2>
+        <button class="menu-toggle"
+    onclick="toggleMenu()">☰</button>
+        <nav id="nav-menu">
             <a href="home">Home</a>
             <a href="about">About</a>
             <a href="skills">Skills</a>
@@ -55,21 +63,65 @@
     </section>
     <section id="Projects">
         <h2>My Projects</h2>
+        <p>Here are some of the projects i have worked on, showcasing my skils, creativity, and passion for software development. Each projects
+             represents an oppportunity to learn, solve problems, and build practical solutions</p>
         <div class="project-card">
-            <h3>Learning Log</h3>
+            <h3>1.Learning Log</h3>
             <p>A Django Application for recording learning activities.</p>
+
+        </div>
+        <div class="project-card">
+            <h3>2.Fuliza Project</h3>
+            <p> A web-based project designed to showcase the fuliza service, allowing users to learn about its features, how it works, eligibility requirements, and benefits. The project demonstrate my HTML and CSS skills in creating a simple, user-friendly, and responsive interface.</p>
+
+        </div>
+        <div class="project-card">
+            <h3>3.My Resume</h3>
+            <p> This is my responsive personal resume website designed to showcase professional, qualification, educational background, technical skills, work experience, and contact information. Developed using HTML and CSS with a clean, user-friendly layout.</p>
+
+        </div>
+        <div class="project-card">
+            <h3>4.Facebook Login</h3>
+            <p>A front-end recreation of the facebook login interface using HTML and CSS. Project demonstrates from design, input styling, button positioning, and responsive web design while stregthening my fronted development skills.</p>
 
         </div>
 
     </section>
     <section id="contacts">
         <h2>Contact Me</h2>
-        <p>Email: kipkiruim89@gmail.com</p>
-        <p>GitHub: github.com/kipkirui-eng</p>
+        <p>I'am always open to discussing new projects, creative ideas, collaboration, or opportunities. <br>
+           Feel free to reach out any of the platforms below. I'd love to hear from you!</p>
+        
+        <div class="social-icons">
+            <a href="https://wa.me/254758185711"
+        target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.facebook.com/Kipkirui Rui"
+        target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/Kipkirui Rui"
+        target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/Ripkirui Rui"
+        target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/eng-kipkirui"
+        target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:kipkiruim89@gmail.com" class="gmail">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+        </div>
 
     </section>
     <footer>
-        <p>&copy; 2026 Mathew Kipkirui. All rights reserved.</p>
+        <p><i>&copy; 2026 Mathew Kipkirui. All rights reserved.</i></p>
     </footer>
     <script src="script.js"></script>
     
