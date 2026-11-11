@@ -184,6 +184,11 @@ section{
 
     
 }
+@media (max-width: 480px) {
+    .skills-container{
+        grid-template-columns: 1fr;
+    }
+}
 
 .btn{
     display: inline-block;
