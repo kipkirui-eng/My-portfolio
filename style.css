@@ -398,3 +398,37 @@ footer {
 .skills-card:hover{
     transform: translate(-10px);
 }
+.skills-progress{
+    width: 100%;
+    height: 8px;
+    background: #334155;
+    border-radius: 10px;
+    margin: 20px 0 10px;
+    overflow: hidden;
+}
+.progress-bar{
+    height: 100%;
+    background: #38bdf8;
+    border-radius: 10px;
+}
+.html{
+    width: 82%;
+}
+.css{
+    width: 60%;
+}
+.javascript{
+    width: 32%;
+}
+.python{
+    width: 55%;
+}
+.mysql{
+    width: 40%;
+}
+.django{
+    width: 35%;
+}
+.skills-card small{
+    color: #38bdf8;
+}
