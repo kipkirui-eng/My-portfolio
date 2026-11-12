@@ -185,17 +185,48 @@ section{
         grid-template-columns: 2, 1fr;
     }
     .contact-section{
-        padding: 45px 6%;
-    }
-    .contact-container{
-        grid-template-columns: 1fr;
+        padding: 45px 18px;
+        width: 100%;
+        box-sizing: border-box;
     }
     .contact-section h1{
         font-size: 28px;
+        margin-bottom: 12px;
+    }
+    .contact-intro{
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 30px;
+    }
+    .contact-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
     .contact-info,
     .contact-form{
-        padding: 22px;
+        padding: 25px 20px;
+        border-radius: 12px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .contact-info h2{
+        font-size: 21px;
+    }
+    .contact-info p{
+        font-size: 14px;
+        line-height: 1.7;
+        overflow-wrap: anywhere;
+    }
+    .contact-form input,
+    .contact-form textarea{
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 15px;
+    }
+    .contact-form button{
+        width: 100%;
+        padding: 14px;
     }
     .footer{
         padding: 40px 7% 20px;
