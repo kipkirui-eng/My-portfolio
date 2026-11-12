@@ -199,8 +199,8 @@ section{
         margin-bottom: 30px;
     }
     .contact-container{
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         gap: 20px;
     }
     .contact-info,
@@ -209,6 +209,12 @@ section{
         border-radius: 12px;
         width: 100%;
         box-sizing: border-box;
+    }
+    .contact-info{
+        order: 1;
+    }
+    .contact-form{
+        order: 2;
     }
     .contact-info h2{
         font-size: 21px;
