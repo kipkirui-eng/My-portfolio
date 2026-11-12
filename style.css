@@ -197,6 +197,19 @@ section{
     .contact-form{
         padding: 22px;
     }
+    .footer{
+        padding: 40px 7% 20px;
+    }
+    .footer-container{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .footer-about p{
+        max-width: 100%;
+    }
+    .footer-bottom{
+        line-height: 1.6;
+    }
 
     
 }
@@ -555,4 +568,51 @@ footer {
     cursor: pointer;
     font-weight: bold;
 }
+.footer{
+    background: #0f172a;
+    color: white;
+    padding: 50px 10% 20px;
+    margin-top: 60px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 40px;
+}
+.footer-about h2{
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+.footer-about p{
+    color: #ccc;
+    line-height: 1.7;
+    max-width: 350px;
+}
 
+.footer-links,
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer-links h3,
+.footer-social h3{
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+.footer a{
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.footer a:hover{
+    color: #38bdf8;
+}
+.footer-bottom{
+    border-top: 1px solid #334155;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
