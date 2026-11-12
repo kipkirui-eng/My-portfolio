@@ -32,7 +32,7 @@
                 <p>Profession: Software Developer</p>
             </div>
             <form class="contact-form"
-            action="http://formsubmit.co/kipkiruim89@gmail.com"
+            action="https://formsubmit.co/kipkiruim89@gmail.com"
             method="POST">
                 
                 <input type="hidden" name="_subject" value="New Message from My Portfolio">
@@ -40,13 +40,16 @@
                 <input type="hidden" name="_template" value="table">
 
                 <input type="text"
+                name="name"
                 placeholder="Your Name" required>
                 <input type="email"
+                name="email"
                 placeholder="Your Email" required>
                 <input type="text"
+                name="subject"
                 placeholder="Subject" required>
 
-                <textarea placeholder="Your Message" rows="6" required></textarea>
+                <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
 
                 <button type="submit">Send Message</button>
             </form>
